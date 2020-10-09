@@ -1,0 +1,20 @@
+.registration-form{
+    margin: 0 auto; 
+    padding:10px 20px;
+    width: 35%;
+    height: 35%;
+    border: 1px solid gray;
+
+}
+.registration-form form{
+ margin-left: 0!important;
+}
+.registration-form form input{ 
+    width: 100%;
+}
+.registerBtn{
+margin:auto;
+}
+.error{
+    color: red;
+}

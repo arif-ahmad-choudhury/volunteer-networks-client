@@ -1,0 +1,12 @@
+.adminTable{
+    background-color:rgb(247, 240, 240);
+}
+.adminTableHead{
+    background-color:rgb(185, 182, 182);
+}
+.deleteIcon{
+    width: 45px;
+    height: 45px;
+    background:rgb(247, 44, 44);
+}
+
