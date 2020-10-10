@@ -22,7 +22,7 @@ const Registration = () => {
 
         history.push("/events");
 
-        fetch('http://localhost:5000/singleEvent',{
+        fetch('https://calm-scrubland-46170.herokuapp.com/singleEvent',{
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(data)

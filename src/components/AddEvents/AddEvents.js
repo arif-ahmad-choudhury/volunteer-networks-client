@@ -7,7 +7,7 @@ const AddEvents = () => {
     const [addEvent,setAddEvent] =useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/adminAddEvents')
+        fetch('https://calm-scrubland-46170.herokuapp.com/adminAddEvents')
         .then(res =>res.json())        
         .then(data =>setAddEvent(data));
     },[])

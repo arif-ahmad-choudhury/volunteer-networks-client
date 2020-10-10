@@ -12,14 +12,14 @@ const Events = () => {
     let history = useHistory();
 
     useEffect(()=>{
-        fetch('http://localhost:5000/singleEvent?email='+loggedInUser.email)
+        fetch('https://calm-scrubland-46170.herokuapp.com/singleEvent?email='+loggedInUser.email)
         .then(res =>res.json())        
         .then(data =>setSingleEvent(data));
     },[])
 
     const deleteEvent = (id) => {
         history.push("/deleteConfirmed");  
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://calm-scrubland-46170.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then(res =>res.json())

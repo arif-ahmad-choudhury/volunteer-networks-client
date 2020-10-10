@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
    const [volunteers,setVolunteers]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/volunteerWorks')
+        fetch('https://calm-scrubland-46170.herokuapp.com/volunteerWorks')
         .then(res => res.json())
         .then(data =>setVolunteers(data))
     },[])
