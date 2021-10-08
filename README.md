@@ -1,6 +1,6 @@
 # Volunteer-Network
 
-## Features:
+## 📝 Features:
 - Built a MERN stack web application with a dynamic volunteer activities
 - A volunteer can sign in with Google
 - Volunteer can choose activities for a specific date
@@ -8,7 +8,7 @@
 - An admin can add new volunteer work which will be visible in the activities section
 - An admin also can see the registered volunteers list with detailed information
 
-## Technology Used:
+## 🛠️ Technology Used:
 - React.js
 - REST API
 - React Router
